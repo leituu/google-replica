@@ -1,0 +1,143 @@
+:root{
+    --blue:#4584EE;
+    --white:#FFFFFF;
+    --gray:#F2F2F2;
+    --dark-gray: #272727;
+    --opt-gray: #404040
+}
+body {
+    height: 100vh;
+    width:auto;
+    margin:0;
+}
+li {
+    list-style: none;
+    width: fit-content;
+    /* font-size: 13px; */
+    color: var(--dark-gray)
+}
+
+.li-header {
+    font-size: 13px;
+}
+
+.li-footer {
+    font-size: 14px;
+    color: rgb(95, 99, 104);
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    /* font-size: 13px; */
+    /* line-height: 24px; */
+    color: var(--dark-opta)
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* font-size: 14px; */
+}
+
+#div{
+    width: fit-content;
+}
+
+#left-menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items:; */
+    /* color:; */
+}
+
+#right-menu {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    padding:0px 30px 0px 0px;
+    margin-right: 0px;
+    align-items:center;
+
+}
+
+.btn {
+    background-color: var(--blue);
+    height: 30px;
+    color: white;
+    width: 69.3438px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#main-cont {
+    width: 800px;
+    margin: auto;
+    padding-top: 300px;
+}
+
+#logo-cont {
+    width: fit-content;
+    margin: auto;
+}
+
+#logo {
+    width: 272px;
+}
+
+#search-bar {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    border: black 1px solid;
+    border-radius: 23px;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+#search-bar-input>input {
+    border: none;
+}
+
+#search-bar-input>input:focus {
+    outline: none;
+}
+
+footer {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--gray);
+    border-top: #F2F2F2;
+}
+
+#footer-left {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+    margin:0;
+}
+
+#footer-right {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 30px;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+    /* margin:0px; */
+    /* margin-bottom: 20px; */
+}
