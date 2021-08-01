@@ -101,6 +101,10 @@ header {
     font-size: 13px;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 #main-cont {
     width: 800px;
     margin: auto;
