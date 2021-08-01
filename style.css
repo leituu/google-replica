@@ -180,6 +180,36 @@ header {
     color: #9AA0A6;
 }
 
+#search-btn {
+    margin: auto;
+    width: fit-content;
+    padding-top: 18px;
+    /* font-size: 14px;
+    height: 36px; */
+}
+
+.search-btn-style {
+    font-size: 14px;
+    background-color: #F2F2F2;
+    color:#5F6368;
+    border: 1px solid rgb(242,242,242);
+    border-radius: 4px;
+    height: 34px;
+    padding: 0 16px;
+    margin: 11px 4px
+}
+
+.search-btn-style:hover {
+    font-size: 14px;
+    background-color: #F2F2F2;
+    color:#222;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    height: 34px;
+    padding: 0 16px;
+    margin: 11px 4px
+}
+
 footer {
     display: flex;
     height: 40px;
